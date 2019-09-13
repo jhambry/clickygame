@@ -1,0 +1,91 @@
+body {
+    background: url(/img/bg-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .App {
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    background-color: rgba(0,0,0,.75);
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .App-header {
+    height: 90px;
+    padding: 20px 20px 20px 20px;
+    color: black;
+  }
+  
+  .App-header h1 {
+    font-size: 46px;
+    color: #004953;
+    text-shadow: 1px 1px 1px white;
+  }
+  
+  .App-header h3{
+    font-size: 16px;
+    color: white;
+    text-shadow: 3px 3px 3px #004953;
+  }
+  
+  .Board h4{
+    font-size: 18px;
+    color: white;
+    text-shadow: 3px 3px 3px #004953;
+  }
+  
+  .character-box{
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .character:hover {
+    transition: transform .4s ease-in-out;
+    transform: scale(1.00,1.00);
+  }
+  
+  .Footer {
+    position: fixed;
+    bottom: 0;
+    left: 30px;
+  }
+  
+  .Footer a {
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    background: rgb(5, 3, 1);
+  }
+  
+ 
+  
+  @media screen and (max-width: 1340px) {
+    img.profile-pic {
+      height: 120px;
+    }
+  }
+  
+  @media screen and (max-width: 860px) {
+    img.profile-pic {
+      height: 100px;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .App-header {
+      height: 80px;
+    }
+    
+    .App-header h1 {
+      font-size: 30px;
+    }
+  
+    .Board h4 {
+      font-size: 14px;
+    }
+  }
+
